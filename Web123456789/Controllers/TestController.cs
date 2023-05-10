@@ -11,8 +11,13 @@ namespace Web123456789.Controllers
         // GET: Test
         public ActionResult Index()
         {
-            
             return View();
         }
+
+        public ActionResult HW3()
+        {
+            return View();
+        }
+
     }
 }
