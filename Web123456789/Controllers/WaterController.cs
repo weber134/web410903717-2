@@ -9,7 +9,7 @@ namespace Web123456789.Controllers
     public class WaterController : Controller
     {
         // GET: Water
-        public ActionResult Index()
+        public ActionResult Index(string name, float? weight)
         {
             return View();
         }
